@@ -7,9 +7,20 @@
 
 .calculator-body {
   border: 1px red solid;
+  width: 250px;
 }
 
 .resultComponent {
   border: 1px blue solid;
   text-align: right;
+}
+
+Col {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  border: 1px blue solid !important;
+  height: 55px;
 }

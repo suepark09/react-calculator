@@ -8,8 +8,15 @@ export default class App extends Component {
     super();
 
     this.state = {
-      result:""
+      result: 0
+      res
     }
+  }
+
+  onClick = () => {
+    this.setState({
+      result: 7
+    })
   }
 
   render() {
